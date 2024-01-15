@@ -151,13 +151,16 @@ img {
 }
 
 .visually-hidden {
-  overflow: hidden;
+  visibility: hidden;
 }
 
 .section-two-card {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
+}
+
+.section-two-card-info {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .section-two-p,
@@ -176,12 +179,12 @@ img {
 .section-three-ul {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 
 .section-three-li {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .section-three-li-name {
@@ -242,4 +245,8 @@ img {
   letter-spacing: 0.02em;
   line-height: 1.5;
   max-width: 264px;
+}
+
+.footer-link {
+  display: inline-block;
 }
