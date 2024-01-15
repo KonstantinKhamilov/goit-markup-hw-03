@@ -97,7 +97,7 @@ img {
 
 .section-one {
   background-color: #2e2f42;
-  padding: 188px 0 18px 0;
+  padding: 188px 0 188px 0;
 }
 
 .section-one-h-one {
@@ -113,7 +113,7 @@ img {
 
 .section-one-btn {
   display: block;
-  min-width: 169;
+  min-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
@@ -147,7 +147,7 @@ img {
 }
 
 .section-two {
-  padding: 120px 0120px 0;
+  padding: 120px 0 120px 0;
 }
 
 .visually-hidden {
@@ -157,9 +157,6 @@ img {
 .section-two-card {
   display: flex;
   gap: 24px;
-}
-
-.section-two-card-info {
   width: calc((100% - 72px) / 4);
 }
 
@@ -179,10 +176,10 @@ img {
 .section-three-ul {
   display: flex;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .section-three-li {
-  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
 }
