@@ -18,6 +18,7 @@ img {
 
 .container {
   display: flex;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
@@ -166,7 +167,6 @@ img {
 .section-two-card {
   display: flex;
   justify-content: space-between;
-  gap: 24px;
 }
 
 .section-two-card-info {
@@ -189,7 +189,6 @@ img {
 .section-three-ul {
   display: flex;
   justify-content: space-between;
-  gap: 24px;
 }
 
 .section-three-li {
@@ -222,8 +221,6 @@ img {
 .section-four-ul {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
 }
 
 .section-four-li {
