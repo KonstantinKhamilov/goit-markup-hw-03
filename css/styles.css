@@ -167,10 +167,11 @@ img {
 .section-two-card {
   display: flex;
   justify-content: space-between;
+  gap: 24px;
 }
 
 .section-two-card-info {
-  width: calc((100%-72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .section-two-p,
@@ -189,6 +190,7 @@ img {
 .section-three-ul {
   display: flex;
   justify-content: space-between;
+  gap: 24px;
 }
 
 .section-three-li {
@@ -221,6 +223,8 @@ img {
 .section-four-ul {
   display: flex;
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .section-four-li {
